@@ -8,7 +8,7 @@ export default function Footer() {
           <span className="brand-icon">🐾</span>
           <span><strong>{clinic.name}</strong><small>{clinic.subtitle}</small></span>
         </div>
-        <p>© {new Date().getFullYear()} {clinic.name}. Todos os direitos reservados.</p>
+        <p>© {new Date().getFullYear()} {clinic.name}. Página demonstrativa — informações e imagens utilizadas apenas para apresentação do modelo..</p>
         <a href={clinic.instagram} target="_blank" rel="noreferrer">Instagram</a>
       </div>
     </footer>
